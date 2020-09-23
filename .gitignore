@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+Devices
+Devices/*.txt
+
+LogCat
+LogCatError
