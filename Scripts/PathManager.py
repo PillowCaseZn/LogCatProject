@@ -54,3 +54,10 @@ def devices_folder_path():
     if os.path.exists(path) is False:
         FileUtils.create_folder(path)
     return path
+
+
+def report_folder_path():
+    path = ConfigUtils.get_full_path('%s/Report' % get_root_path())
+    if os.path.exists(path) is False:
+        FileUtils.create_folder(path)
+    return path

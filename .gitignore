@@ -133,3 +133,6 @@ Devices/*.txt
 
 LogCat
 LogCatError
+
+Report
+Report/*.txt
